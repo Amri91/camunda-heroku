@@ -36,6 +36,11 @@
       <scope>provided</scope>
     </dependency>
 		<dependency>
+  <groupId>org.camunda.bpm.springboot</groupId>
+  <artifactId>camunda-bpm-spring-boot-starter-rest</artifactId>
+  <version>@{project-version}</version>
+</dependency>
+		<dependency>
 			<groupId>org.camunda.bpm.webapp</groupId>
 			<artifactId>camunda-webapp-tomcat-standalone</artifactId>
 			<version>${camunda-bpm.version}</version>
